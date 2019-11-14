@@ -2,8 +2,6 @@ from flask import Flask, jsonify, request
 
 app = Flask(__name__)
 
-
-# Algumas tarefas criadas para teste
 tasks = [
 
 ]
@@ -47,6 +45,3 @@ def delete_task(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
-
-
-print(tasks[0])
